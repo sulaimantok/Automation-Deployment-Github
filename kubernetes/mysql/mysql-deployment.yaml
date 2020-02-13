@@ -1,0 +1,32 @@
+apiVersion: apps/v1 
+kind: Deployment
+metadata:
+  name: mysqldb
+  namespace: api
+spec:
+  selector:
+    matchLabels:
+      app: mysqldb
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: mysqldb
+    spec:
+      containers:
+        - image: mysql:5.7
+          name: mysqldb
+          env:
+            # Use secret in real usage
+            - name: MYSQL_ROOT_PASSWORD
+              value: root
+            - name: MYSQL_USER
+              value: crud
+            - name: MYSQL_PASSWORD
+              value: Bismillah
+            - name: MYSQL_DATABASE
+              value: user_db
+          ports:
+            - containerPort: 3306
+              name: mysqldb

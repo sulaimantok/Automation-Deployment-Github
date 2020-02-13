@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apiservice
+  namespace: api
+  labels:
+    app: apiservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: apiservice
+  template:
+      metadata:
+        labels:
+          app: apiservice
+      spec:
+        containers:
+          - name: apiservice
+            image: api-service-up
+            imagePullPolicy: Never
+            ports:
+              - containerPort: 8080
+                name: http
+            envFrom:
+              - configMapRef:
+                  name: apiservice
+            livenessProbe:
+              httpGet:
+                path: /users
+                port: 8080
+              initialDelaySeconds: 60
+              periodSeconds: 5

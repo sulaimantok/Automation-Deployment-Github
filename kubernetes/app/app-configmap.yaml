@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: apiservice
+  namespace: api
+data:
+  DATABASE_SERVER_NAME: "mysqldb"
+  DATABASE_USER_NAME: "crud"
+  DATABASE_USER_PASSWORD: "Bismillah"
