@@ -17,7 +17,7 @@ spec:
       spec:
         containers:
           - name: apiservice
-            image: api-service-up
+            image: sulaiman28/api-service-test:latest
             imagePullPolicy: Never
             ports:
               - containerPort: 8080
