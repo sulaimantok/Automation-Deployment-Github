@@ -1,0 +1,35 @@
+name: 'Deploy'     
+on:
+  push:
+    branches:
+      - develop 
+
+jobs:
+  deployment:
+    runs-on: 'ubuntu-latest'
+    steps:
+    - name: 'Checkout' 
+      uses: 'actions/checkout@v1'
+
+    - name: 'Minikube Setup'
+      run: |
+       minikube -p kube.api start
+       minikube -p kube.api addons enable ingress
+       minikube -p kube.api addons enable metrics-server
+       kubectl create namespace api-ns
+
+    - name: 'Deploy mysql app'
+      run: |
+        kubectl apply -f kubernetes/mysql/
+
+    - name: 'Deploy Api Service App'
+      run: |
+        kubectl apply -f kubernetes/app/
+        minikube -p kube.api service -n api-ns apiservice --url > url-api-service.txt
+    
+    - name: Upload result
+      uses: actions/upload-artifact@v1
+      with:
+        name: URL
+        path: url-api-service.txt
+    
