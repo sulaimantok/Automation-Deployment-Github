@@ -1,0 +1,192 @@
+[2020-02-18 21:56:29Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2020-02-18 21:56:29Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2020-02-18 21:56:29Z INFO Listener] RuntimeInformation: Linux 5.3.0-28-generic #30~18.04.1-Ubuntu SMP Fri Jan 17 06:14:09 UTC 2020.
+[2020-02-18 21:56:29Z INFO Listener] Version: 2.165.2
+[2020-02-18 21:56:29Z INFO Listener] Commit: fcf795d86d880b9f0bd10f9713d29cb9784ecef5
+[2020-02-18 21:56:29Z INFO Listener] Culture: en-US
+[2020-02-18 21:56:29Z INFO Listener] UI Culture: en-US
+[2020-02-18 21:56:29Z INFO HostContext] Well known directory 'Bin': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/bin'
+[2020-02-18 21:56:29Z INFO HostContext] Well known directory 'Root': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner'
+[2020-02-18 21:56:29Z INFO Listener] Validating directory permissions for: '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner'
+[2020-02-18 21:56:29Z INFO CommandLineParser] Parse
+[2020-02-18 21:56:29Z INFO CommandLineParser] Parsing 5 args
+[2020-02-18 21:56:29Z INFO CommandLineParser] parsing argument
+[2020-02-18 21:56:29Z INFO CommandLineParser] HasArgs: False
+[2020-02-18 21:56:29Z INFO CommandLineParser] Adding Command: configure
+[2020-02-18 21:56:29Z INFO CommandLineParser] parsing argument
+[2020-02-18 21:56:29Z INFO CommandLineParser] HasArgs: True
+[2020-02-18 21:56:29Z INFO CommandLineParser] arg: url
+[2020-02-18 21:56:29Z INFO CommandLineParser] parsing argument
+[2020-02-18 21:56:29Z INFO CommandLineParser] HasArgs: True
+[2020-02-18 21:56:29Z INFO CommandLineParser] Adding option 'url': 'https://github.com/sulaimantok/Automation-Deployment-Github'
+[2020-02-18 21:56:29Z INFO CommandLineParser] parsing argument
+[2020-02-18 21:56:29Z INFO CommandLineParser] HasArgs: True
+[2020-02-18 21:56:29Z INFO CommandLineParser] arg: token
+[2020-02-18 21:56:29Z INFO CommandLineParser] parsing argument
+[2020-02-18 21:56:29Z INFO CommandLineParser] HasArgs: True
+[2020-02-18 21:56:29Z INFO CommandLineParser] Adding option 'token': '***'
+[2020-02-18 21:56:29Z INFO Listener] Arguments parsed
+[2020-02-18 21:56:29Z INFO Runner] ExecuteCommand
+[2020-02-18 21:56:29Z INFO ConfigurationStore] currentAssemblyLocation: /home/sulaiman/Downloads/Java/Alami_Project/actions-runner/bin/Runner.Listener.dll
+[2020-02-18 21:56:29Z INFO HostContext] Well known directory 'Bin': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/bin'
+[2020-02-18 21:56:29Z INFO ConfigurationStore] binPath: /home/sulaiman/Downloads/Java/Alami_Project/actions-runner/bin
+[2020-02-18 21:56:29Z INFO HostContext] Well known directory 'Bin': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/bin'
+[2020-02-18 21:56:29Z INFO HostContext] Well known directory 'Root': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner'
+[2020-02-18 21:56:29Z INFO ConfigurationStore] RootFolder: /home/sulaiman/Downloads/Java/Alami_Project/actions-runner
+[2020-02-18 21:56:29Z INFO HostContext] Well known directory 'Bin': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/bin'
+[2020-02-18 21:56:29Z INFO HostContext] Well known directory 'Root': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner'
+[2020-02-18 21:56:29Z INFO HostContext] Well known config file 'Runner': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/.runner'
+[2020-02-18 21:56:29Z INFO ConfigurationStore] ConfigFilePath: /home/sulaiman/Downloads/Java/Alami_Project/actions-runner/.runner
+[2020-02-18 21:56:29Z INFO HostContext] Well known directory 'Bin': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/bin'
+[2020-02-18 21:56:29Z INFO HostContext] Well known directory 'Root': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner'
+[2020-02-18 21:56:29Z INFO HostContext] Well known config file 'Credentials': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/.credentials'
+[2020-02-18 21:56:29Z INFO ConfigurationStore] CredFilePath: /home/sulaiman/Downloads/Java/Alami_Project/actions-runner/.credentials
+[2020-02-18 21:56:29Z INFO HostContext] Well known directory 'Bin': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/bin'
+[2020-02-18 21:56:29Z INFO HostContext] Well known directory 'Root': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner'
+[2020-02-18 21:56:29Z INFO HostContext] Well known config file 'Service': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/.service'
+[2020-02-18 21:56:29Z INFO ConfigurationStore] ServiceConfigFilePath: /home/sulaiman/Downloads/Java/Alami_Project/actions-runner/.service
+[2020-02-18 21:56:29Z INFO CommandSettings] Flag 'help': 'False'
+[2020-02-18 21:56:29Z INFO CommandSettings] Flag 'version': 'False'
+[2020-02-18 21:56:29Z INFO CommandSettings] Flag 'commit': 'False'
+[2020-02-18 21:56:29Z INFO CommandSettings] Command 'configure': 'True'
+[2020-02-18 21:56:29Z INFO Terminal] WRITE LINE: 
+[2020-02-18 21:56:29Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2020-02-18 21:56:29Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2020-02-18 21:56:29Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2020-02-18 21:56:29Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2020-02-18 21:56:29Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2020-02-18 21:56:29Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2020-02-18 21:56:29Z INFO Terminal] WRITE LINE: |                                                                              |
+[2020-02-18 21:56:29Z INFO Terminal] WRITE: |                       
+[2020-02-18 21:56:29Z INFO Terminal] WRITE: Self-hosted runner registration
+[2020-02-18 21:56:29Z INFO Terminal] WRITE LINE:                         |
+[2020-02-18 21:56:29Z INFO Terminal] WRITE LINE: |                                                                              |
+[2020-02-18 21:56:29Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2020-02-18 21:56:29Z INFO ConfigurationManager] ConfigureAsync
+[2020-02-18 21:56:29Z INFO ConfigurationStore] IsConfigured()
+[2020-02-18 21:56:29Z INFO ConfigurationStore] IsConfigured: False
+[2020-02-18 21:56:29Z INFO ConfigurationManager] Is configured: False
+[2020-02-18 21:56:29Z INFO CommandSettings] Arg 'url': 'https://github.com/sulaimantok/Automation-Deployment-Github'
+[2020-02-18 21:56:29Z INFO CommandSettings] Remove url from Arg dictionary.
+[2020-02-18 21:56:29Z INFO CommandSettings] Arg 'token': '***'
+[2020-02-18 21:56:29Z INFO CommandSettings] Remove token from Arg dictionary.
+[2020-02-18 21:56:38Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/repos/sulaimantok/Automation-Deployment-Github/actions-runners/registration'
+[2020-02-18 21:56:38Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2020-02-18 21:56:38Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-02-18 21:56:39Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-02-18 21:56:39Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-02-18 21:56:40Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-02-18 21:56:40Z INFO ConfigurationManager] Server deployment type: Hosted
+[2020-02-18 21:56:40Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2020-02-18 21:56:40Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-02-18 21:56:40Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-02-18 21:56:40Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-02-18 21:56:40Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-02-18 21:56:40Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-02-18 21:56:41Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-02-18 21:56:41Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-02-18 21:56:41Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-02-18 21:56:41Z INFO Terminal] WRITE LINE: 
+[2020-02-18 21:56:41Z INFO ConfigurationManager] Test Connection complete.
+[2020-02-18 21:56:41Z INFO HostContext] Well known directory 'Bin': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/bin'
+[2020-02-18 21:56:41Z INFO HostContext] Well known directory 'Root': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner'
+[2020-02-18 21:56:41Z INFO HostContext] Well known config file 'RSACredentials': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/.credentials_rsaparams'
+[2020-02-18 21:56:41Z INFO RSAFileKeyManager] Creating new RSA key using 2048-bit key length
+[2020-02-18 21:56:42Z INFO RSAFileKeyManager] Successfully saved RSA key parameters to file /home/sulaiman/Downloads/Java/Alami_Project/actions-runner/.credentials_rsaparams
+[2020-02-18 21:56:42Z INFO RSAFileKeyManager] Which: 'chmod'
+[2020-02-18 21:56:42Z INFO RSAFileKeyManager] Location: '/bin/chmod'
+[2020-02-18 21:56:42Z INFO HostContext] Well known directory 'Bin': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/bin'
+[2020-02-18 21:56:42Z INFO HostContext] Well known directory 'Root': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner'
+[2020-02-18 21:56:42Z INFO ProcessInvokerWrapper] Starting process:
+[2020-02-18 21:56:42Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2020-02-18 21:56:42Z INFO ProcessInvokerWrapper]   Arguments: '600 /home/sulaiman/Downloads/Java/Alami_Project/actions-runner/.credentials_rsaparams'
+[2020-02-18 21:56:42Z INFO ProcessInvokerWrapper]   Working directory: '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner'
+[2020-02-18 21:56:42Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2020-02-18 21:56:42Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2020-02-18 21:56:42Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2020-02-18 21:56:42Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2020-02-18 21:56:42Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2020-02-18 21:56:42Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2020-02-18 21:56:42Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2020-02-18 21:56:42Z INFO ProcessInvokerWrapper] Failed to update oom_score_adj for PID: 7831.
+[2020-02-18 21:56:42Z INFO ProcessInvokerWrapper] System.UnauthorizedAccessException: Access to the path '/proc/7831/oom_score_adj' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at GitHub.Runner.Sdk.ProcessInvoker.WriteProcessOomScoreAdj(Int32 processId, Int32 oomScoreAdj)
+[2020-02-18 21:56:42Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-02-18 21:56:42Z INFO ProcessInvokerWrapper] Process started with process id 7831, waiting for process exit.
+[2020-02-18 21:56:42Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-02-18 21:56:42Z INFO ProcessInvokerWrapper] Finished process 7831 with exit code 0, and elapsed time 00:00:00.0655114.
+[2020-02-18 21:56:42Z INFO RSAFileKeyManager] Successfully set permissions for RSA key parameters file /home/sulaiman/Downloads/Java/Alami_Project/actions-runner/.credentials_rsaparams
+[2020-02-18 21:56:43Z INFO ConfigurationManager] Found a private pool with id {1} and name {2} 1, Default
+[2020-02-18 21:56:43Z INFO CommandSettings] Arg 'name': ''
+[2020-02-18 21:56:43Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-02-18 21:56:43Z INFO PromptManager] ReadValue
+[2020-02-18 21:56:43Z INFO Terminal] WRITE: Enter the name of runner: 
+[2020-02-18 21:56:43Z INFO Terminal] WRITE: [press Enter for Al-faruq] 
+[2020-02-18 21:56:43Z INFO Terminal] READ LINE
+[2020-02-18 21:56:52Z INFO Terminal] Read value: ''
+[2020-02-18 21:56:52Z INFO PromptManager] Falling back to the default: 'Al-faruq'
+[2020-02-18 21:56:52Z INFO Terminal] WRITE LINE: 
+[2020-02-18 21:56:54Z INFO ConfigurationManager] Agent server url resolve by server: 'https://pipelines.actions.githubusercontent.com/SXcIaEIHT6eFf4tE81f6sCfXzwgTRocq3Ok1CJamSYeTd2cl8r/'.
+[2020-02-18 21:56:54Z INFO ConfigurationStore] Saving OAuth credential @ /home/sulaiman/Downloads/Java/Alami_Project/actions-runner/.credentials
+[2020-02-18 21:56:54Z INFO ConfigurationStore] Credentials Saved.
+[2020-02-18 21:56:54Z INFO ConfigurationStore] HasCredentials()
+[2020-02-18 21:56:54Z INFO ConfigurationStore] stored True
+[2020-02-18 21:56:54Z INFO CredentialManager] GetCredentialProvider
+[2020-02-18 21:56:54Z INFO CredentialManager] Creating type OAuth
+[2020-02-18 21:56:54Z INFO CredentialManager] Creating credential type: OAuth
+[2020-02-18 21:56:54Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/sulaiman/Downloads/Java/Alami_Project/actions-runner/.credentials_rsaparams
+[2020-02-18 21:56:54Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2020-02-18 21:56:54Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-02-18 21:56:54Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-02-18 21:56:54Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-02-18 21:56:54Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-02-18 21:56:54Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-02-18 21:56:55Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-02-18 21:56:55Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-02-18 21:56:55Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-02-18 21:56:55Z INFO CommandSettings] Arg 'work': ''
+[2020-02-18 21:56:55Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-02-18 21:56:55Z INFO PromptManager] ReadValue
+[2020-02-18 21:56:55Z INFO Terminal] WRITE: Enter name of work folder: 
+[2020-02-18 21:56:55Z INFO Terminal] WRITE: [press Enter for _work] 
+[2020-02-18 21:56:55Z INFO Terminal] READ LINE
+[2020-02-18 21:56:58Z INFO Terminal] Read value: ''
+[2020-02-18 21:56:58Z INFO PromptManager] Falling back to the default: '_work'
+[2020-02-18 21:56:58Z INFO ConfigurationStore] Saving runner settings.
+[2020-02-18 21:56:58Z INFO ConfigurationStore] Settings Saved.
+[2020-02-18 21:56:58Z INFO Terminal] WRITE LINE: 
+[2020-02-18 21:56:58Z INFO Terminal] WRITE LINE: 
+[2020-02-18 21:56:58Z INFO SystemDControlManager] Service name 'actions.runner.sulaimantok-Automation-Deployment-Github.Al-faruq.service' display name 'GitHub Actions Runner (sulaimantok-Automation-Deployment-Github.Al-faruq)' will be used for service configuration.
+[2020-02-18 21:56:58Z INFO HostContext] Well known directory 'Bin': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/bin'
+[2020-02-18 21:56:58Z INFO HostContext] Well known directory 'Root': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner'
+[2020-02-18 21:56:58Z INFO HostContext] Well known directory 'Bin': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/bin'
+[2020-02-18 21:56:58Z INFO HostContext] Well known directory 'Bin': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/bin'
+[2020-02-18 21:56:58Z INFO HostContext] Well known directory 'Root': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner'
+[2020-02-18 21:56:58Z INFO UnixUtil] Which: 'chmod'
+[2020-02-18 21:56:58Z INFO UnixUtil] Location: '/bin/chmod'
+[2020-02-18 21:56:58Z INFO UnixUtil] Running /bin/chmod 755 "/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/svc.sh"
+[2020-02-18 21:56:58Z INFO ProcessInvokerWrapper] Starting process:
+[2020-02-18 21:56:58Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2020-02-18 21:56:58Z INFO ProcessInvokerWrapper]   Arguments: '755 "/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/svc.sh"'
+[2020-02-18 21:56:58Z INFO ProcessInvokerWrapper]   Working directory: '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner'
+[2020-02-18 21:56:58Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2020-02-18 21:56:58Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2020-02-18 21:56:58Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2020-02-18 21:56:58Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2020-02-18 21:56:58Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2020-02-18 21:56:58Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2020-02-18 21:56:58Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2020-02-18 21:56:58Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 7851.
+[2020-02-18 21:56:58Z INFO ProcessInvokerWrapper] Process started with process id 7851, waiting for process exit.
+[2020-02-18 21:56:58Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-02-18 21:56:58Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-02-18 21:56:58Z INFO ProcessInvokerWrapper] Finished process 7851 with exit code 0, and elapsed time 00:00:00.0019210.

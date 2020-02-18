@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 21,
+  "agentName": "Al-faruq",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/SXcIaEIHT6eFf4tE81f6sCfXzwgTRocq3Ok1CJamSYeTd2cl8r/",
+  "gitHubUrl": "https://github.com/sulaimantok/Automation-Deployment-Github",
+  "workFolder": "_work"
+}

@@ -1,0 +1,114 @@
+[2020-02-18 21:57:14Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2020-02-18 21:57:14Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2020-02-18 21:57:14Z INFO Listener] RuntimeInformation: Linux 5.3.0-28-generic #30~18.04.1-Ubuntu SMP Fri Jan 17 06:14:09 UTC 2020.
+[2020-02-18 21:57:14Z INFO Listener] Version: 2.165.2
+[2020-02-18 21:57:14Z INFO Listener] Commit: fcf795d86d880b9f0bd10f9713d29cb9784ecef5
+[2020-02-18 21:57:14Z INFO Listener] Culture: en-US
+[2020-02-18 21:57:14Z INFO Listener] UI Culture: en-US
+[2020-02-18 21:57:14Z INFO HostContext] Well known directory 'Bin': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/bin'
+[2020-02-18 21:57:14Z INFO HostContext] Well known directory 'Root': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner'
+[2020-02-18 21:57:14Z INFO Listener] Validating directory permissions for: '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner'
+[2020-02-18 21:57:14Z INFO CommandLineParser] Parse
+[2020-02-18 21:57:14Z INFO CommandLineParser] Parsing 1 args
+[2020-02-18 21:57:14Z INFO CommandLineParser] parsing argument
+[2020-02-18 21:57:14Z INFO CommandLineParser] HasArgs: False
+[2020-02-18 21:57:14Z INFO CommandLineParser] Adding Command: run
+[2020-02-18 21:57:14Z INFO Listener] Arguments parsed
+[2020-02-18 21:57:14Z INFO Runner] ExecuteCommand
+[2020-02-18 21:57:14Z INFO ConfigurationStore] currentAssemblyLocation: /home/sulaiman/Downloads/Java/Alami_Project/actions-runner/bin/Runner.Listener.dll
+[2020-02-18 21:57:14Z INFO HostContext] Well known directory 'Bin': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/bin'
+[2020-02-18 21:57:14Z INFO ConfigurationStore] binPath: /home/sulaiman/Downloads/Java/Alami_Project/actions-runner/bin
+[2020-02-18 21:57:14Z INFO HostContext] Well known directory 'Bin': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/bin'
+[2020-02-18 21:57:14Z INFO HostContext] Well known directory 'Root': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner'
+[2020-02-18 21:57:14Z INFO ConfigurationStore] RootFolder: /home/sulaiman/Downloads/Java/Alami_Project/actions-runner
+[2020-02-18 21:57:14Z INFO HostContext] Well known directory 'Bin': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/bin'
+[2020-02-18 21:57:14Z INFO HostContext] Well known directory 'Root': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner'
+[2020-02-18 21:57:14Z INFO HostContext] Well known config file 'Runner': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/.runner'
+[2020-02-18 21:57:14Z INFO ConfigurationStore] ConfigFilePath: /home/sulaiman/Downloads/Java/Alami_Project/actions-runner/.runner
+[2020-02-18 21:57:14Z INFO HostContext] Well known directory 'Bin': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/bin'
+[2020-02-18 21:57:14Z INFO HostContext] Well known directory 'Root': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner'
+[2020-02-18 21:57:14Z INFO HostContext] Well known config file 'Credentials': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/.credentials'
+[2020-02-18 21:57:14Z INFO ConfigurationStore] CredFilePath: /home/sulaiman/Downloads/Java/Alami_Project/actions-runner/.credentials
+[2020-02-18 21:57:14Z INFO HostContext] Well known directory 'Bin': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/bin'
+[2020-02-18 21:57:14Z INFO HostContext] Well known directory 'Root': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner'
+[2020-02-18 21:57:14Z INFO HostContext] Well known config file 'Service': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/.service'
+[2020-02-18 21:57:14Z INFO ConfigurationStore] ServiceConfigFilePath: /home/sulaiman/Downloads/Java/Alami_Project/actions-runner/.service
+[2020-02-18 21:57:14Z INFO CommandSettings] Flag 'help': 'False'
+[2020-02-18 21:57:14Z INFO CommandSettings] Flag 'version': 'False'
+[2020-02-18 21:57:14Z INFO CommandSettings] Flag 'commit': 'False'
+[2020-02-18 21:57:14Z INFO CommandSettings] Command 'configure': 'False'
+[2020-02-18 21:57:14Z INFO CommandSettings] Command 'remove': 'False'
+[2020-02-18 21:57:14Z INFO CommandSettings] Command 'warmup': 'False'
+[2020-02-18 21:57:14Z INFO ConfigurationManager] LoadSettings
+[2020-02-18 21:57:14Z INFO ConfigurationStore] IsConfigured()
+[2020-02-18 21:57:14Z INFO ConfigurationStore] IsConfigured: True
+[2020-02-18 21:57:14Z INFO ConfigurationManager] Is configured: True
+[2020-02-18 21:57:14Z INFO ConfigurationStore] Read setting file: 307 chars
+[2020-02-18 21:57:14Z INFO ConfigurationManager] Settings Loaded
+[2020-02-18 21:57:14Z INFO ConfigurationStore] IsServiceConfigured()
+[2020-02-18 21:57:14Z INFO ConfigurationStore] IsServiceConfigured: False
+[2020-02-18 21:57:14Z INFO CommandSettings] Command 'run': 'True'
+[2020-02-18 21:57:14Z INFO ConfigurationStore] IsConfigured()
+[2020-02-18 21:57:14Z INFO ConfigurationStore] IsConfigured: True
+[2020-02-18 21:57:14Z INFO ConfigurationManager] Is configured: True
+[2020-02-18 21:57:14Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2020-02-18 21:57:14Z INFO Runner] Set runner startup type - Manual
+[2020-02-18 21:57:14Z INFO CommandSettings] Flag 'once': 'False'
+[2020-02-18 21:57:14Z INFO Runner] RunAsync
+[2020-02-18 21:57:14Z INFO ConfigurationManager] LoadSettings
+[2020-02-18 21:57:14Z INFO ConfigurationStore] IsConfigured()
+[2020-02-18 21:57:14Z INFO ConfigurationStore] IsConfigured: True
+[2020-02-18 21:57:14Z INFO ConfigurationManager] Is configured: True
+[2020-02-18 21:57:14Z INFO ConfigurationManager] Settings Loaded
+[2020-02-18 21:57:14Z INFO MessageListener] {
+  "AgentId": 21,
+  "AgentName": "Al-faruq",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/SXcIaEIHT6eFf4tE81f6sCfXzwgTRocq3Ok1CJamSYeTd2cl8r/",
+  "GitHubUrl": "https://github.com/sulaimantok/Automation-Deployment-Github",
+  "WorkFolder": "_work"
+}
+[2020-02-18 21:57:14Z INFO MessageListener] Loading Credentials
+[2020-02-18 21:57:14Z INFO ConfigurationStore] HasCredentials()
+[2020-02-18 21:57:14Z INFO ConfigurationStore] stored True
+[2020-02-18 21:57:14Z INFO CredentialManager] GetCredentialProvider
+[2020-02-18 21:57:14Z INFO CredentialManager] Creating type OAuth
+[2020-02-18 21:57:14Z INFO CredentialManager] Creating credential type: OAuth
+[2020-02-18 21:57:14Z INFO HostContext] Well known directory 'Bin': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/bin'
+[2020-02-18 21:57:14Z INFO HostContext] Well known directory 'Root': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner'
+[2020-02-18 21:57:14Z INFO HostContext] Well known config file 'RSACredentials': '/home/sulaiman/Downloads/Java/Alami_Project/actions-runner/.credentials_rsaparams'
+[2020-02-18 21:57:14Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/sulaiman/Downloads/Java/Alami_Project/actions-runner/.credentials_rsaparams
+[2020-02-18 21:57:14Z INFO MessageListener] Attempt to create session.
+[2020-02-18 21:57:14Z INFO MessageListener] Connecting to the Runner Server...
+[2020-02-18 21:57:14Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2020-02-18 21:57:14Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-02-18 21:57:14Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-02-18 21:57:14Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-02-18 21:57:14Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-02-18 21:57:14Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-02-18 21:57:15Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-02-18 21:57:15Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-02-18 21:57:15Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-02-18 21:57:15Z INFO MessageListener] VssConnection created
+[2020-02-18 21:57:15Z INFO Terminal] WRITE LINE: 
+[2020-02-18 21:57:15Z INFO Terminal] WRITE LINE: 
+[2020-02-18 21:57:16Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 6e877ab1-3d8c-4f64-9173-68ae6dd1d282
+ActivityId: 9171f1aa-abdf-4728-98e6-466b3a9b3235
+X-TFS-Session: a4117e99-946d-477e-aa7b-b251b75cac04
+X-VSS-E2EID: b33ab4ec-5bd3-4af3-91ee-b27966375fc3
+X-VSS-SenderDeploymentId: 02120909-3c00-63c2-b451-f147b8aff5a4
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005a-0000-8888-8000-000000000000/visualstudio.com
+X-MSEdge-Ref: Ref A: 69032E8F39BE4D608E1A3A0F0022A055 Ref B: SG2EDGE1017 Ref C: 2020-02-18T21:57:16Z
+Date: Tue, 18 Feb 2020 21:57:15 GMT
+
+[2020-02-18 21:57:16Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/sulaiman/Downloads/Java/Alami_Project/actions-runner/.credentials_rsaparams
+[2020-02-18 21:57:16Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/sulaiman/Downloads/Java/Alami_Project/actions-runner/.credentials_rsaparams
+[2020-02-18 21:57:17Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2020-02-18 21:57:18Z INFO MessageListener] Session created.
+[2020-02-18 21:57:18Z INFO Terminal] WRITE LINE: 2020-02-18 21:57:18Z: Listening for Jobs
+[2020-02-18 21:57:18Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
